@@ -1,3 +1,10 @@
+@font-face {
+	font-family: Raleway;
+	src: url("Raleway-VariableFont_wght.ttf") format("ttf"), url("Raleway-Italic-VariableFont_wght.ttf") format("ttf");
+}
+body{
+	font-family: Raleway;
+}
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -13,3 +20,4 @@ footer {
 	display: flex;
 	justify-content: space-between;
 }
+
