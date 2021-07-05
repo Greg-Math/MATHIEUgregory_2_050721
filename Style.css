@@ -1,0 +1,15 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+ul {
+	list-style-type: none;
+}
+footer {
+	display: flex;
+	flex-direction: row;
+}
+.Hebergement {
+	display: flex;
+	justify-content: space-between;
+}
