@@ -17,7 +17,6 @@
                     <a href="#Activités"> Activités</a>
                 </div>
                     <a href="S'inscrire"> S'incrire</a>
-
             </nav>
     </header>
 
@@ -26,14 +25,16 @@
 
     <!-- Recherhes -->
     <section class="search"> 
-        <header>
+        <header class="HeadSearch">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
         </header>
             <form method="post" action="">
-                <i class="fas fa-map-marker-alt"></i>
-                <input type="search" name="Recherche" placeholder="Marseille, France">
-                <input type="submit" name="BoutonRecherche" value="Rechercher">
+                <div class="BarreSearch">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="search" name="Recherche" placeholder="Marseille, France">
+                    <input type="submit" name="BoutonRecherche" value="Rechercher">
+                </div>
             </form>
 
         <div class="Filtres">
@@ -43,19 +44,19 @@
                 <div><i class="fas fa-heart"></i> Romantique</div>
                 <div><i class="fas fa-dog"></i> Animaux autorisés</div>
         </div>
-        <div>
+        <div class="TextI">
                 <div><i class="fas fa-info"></i></div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
     </section>
         
     <!-- Hébergements -->
-    <section class="Hebergement">
-        
+    <section class="ToutHeberg">
+        <div class="Hebergement">
             <h1>Hébergement à Marseille</h1>
-        
+            <div class="ElemHeberg">
+
                 <!-- Auberge la Cannebière -->
-            <div>
                 <article class="Cannebière">
                     <a href="">
                         <div class="ImgHeberg"><img src=""></div>
@@ -162,7 +163,9 @@
                         </div>
                     </a> 
                 </article>
+                <p><em>Afficher plus</em></p>
             </div>
+        </div>
 
         <!-- Les plus Populaires -->
         <aside class="Populaire">
@@ -227,9 +230,10 @@
 
     <!-- Activités -->
     <section class="Activités">
-            <h1>Activités à Marseille</h1>
+        <h1>Activités à Marseille</h1>
 
-        <div><!-- Vieux Port -->
+        <div class= "ElemActi">
+            <!-- Vieux Port -->
             <article class="Vport">
                 <a href="">
                     <div class="ImgAct"><img src=""></div>

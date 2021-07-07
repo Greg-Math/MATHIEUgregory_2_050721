@@ -4,6 +4,7 @@
 }
 body{
 	font-family: Raleway;
+	padding: auto;
 }
 .header {
 	display: flex;
@@ -11,13 +12,60 @@ body{
 }
 ul {
 	list-style-type: none;
+	position: relative;
+	right: 40px;
 }
 footer {
 	display: flex;
-	flex-direction: row;
+	
+	background-color: #F2F2F2;
+	
+}
+.Populaire {
+	background-color: #F2F2F2;
+	border: 2px #F2F2F2 solid;
+	border-radius: 20px;
 }
 .Hebergement {
+	background-color: #F2F2F2;
+	border: 2px #F2F2F2 solid;
+	border-radius: 20px;
+}
+.ElemHeberg {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.ToutHeberg {
 	display: flex;
 	justify-content: space-between;
 }
+.fa-map-marker-alt {
+	display: flex;
+	align-self: center;
+	border: 2px #F2F2F2 solid;
+	border-radius: 20px 0px 20px 0px;
+	background-color: #F2F2F2
+}
+.BarreSearch {
+	display: flex;
+	border: 2px #F2F2F2 solid;
+	border-radius: 20px;
+	width: ;
+	height: 40px;
+	
+}
+.Filtres {
+	display: flex;
 
+}
+em {
+	font-weight: bold;
+	font-style: normal;
+}
+.TextI {
+	display: flex;
+}
+.ElemActi {
+	display: flex;
+}
