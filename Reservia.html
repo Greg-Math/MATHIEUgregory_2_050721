@@ -11,13 +11,13 @@
     <!-- Header -->
     <header class="header">
             <img class="ImgReservia" src="Reservia.png" alt="Reservia">
-            <nav> <!-- Menu Navigation -->
-                <div>
-                    <a href="#Hébergement"> Hébergements</a>
-                    <a href="#Activités"> Activités</a>
+                <div id="ElemNav">
+                    <nav> <!-- Menu Navigation -->
+                        <a href="#Hébergement" class="NavH"> Hébergements</a>
+                        <a href="#Activités" class="NavA"> Activités</a>
+                    </nav>
+                    <a href="S'inscrire" id="Sinscrire"> S'incrire</a>
                 </div>
-                    <a href="S'inscrire"> S'incrire</a>
-            </nav>
     </header>
 
     <!-- Contenus -->
@@ -45,7 +45,7 @@
                 <div><i class="fas fa-dog"></i> Animaux autorisés</div>
         </div>
         <div class="TextI">
-                <div><i class="fas fa-info"></i></div>
+                <div class="IconeI"><i class="fas fa-info"></i></div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
     </section>
@@ -285,28 +285,33 @@
     </main>
 
     <!-- Footer -->
-        <footer>   
-            <div class="Elem1">
-                <h3>A Propos</h3>
-                    <ul>
-                        <li><a href="">Fonctionnement du site</a></li>
-                        <li><a href="">Conditions générales de vente</a></li>
-                        <li><a href="">Données et confidentialité</a></li>
-                    </ul>
-            </div class="Elem2">
-            <div>
-                <h3>Nos Hébergements</h3>
-                    <ul>
-                        <li><a href="">Charte qualité</a></li>
-                        <li><a href="">Soumettre votre hôtel</a></li>
-                    </ul>
-            </div>
-             <div class="Elem3">
-                <h3>Assistance</h3>
-                    <ul>
-                        <li><a href="">Centre d'aide</a></li>
-                        <li><a href="">Nous contacter</a></li>
-                    </ul>
+        <footer>
+            <div class="FootElem">
+                <!-- A Propos -->
+                <div class="Elem1">
+                    <h3>A Propos</h3>
+                        <ul>
+                            <li><a href="">Fonctionnement du site</a></li>
+                            <li><a href="">Conditions générales de vente</a></li>
+                            <li><a href="">Données et confidentialité</a></li>
+                        </ul>
+                </div>
+                <!-- Nos Hébergements -->
+                <div class="Elem2">
+                    <h3>Nos Hébergements</h3>
+                        <ul>
+                            <li><a href="">Charte qualité</a></li>
+                            <li><a href="">Soumettre votre hôtel</a></li>
+                        </ul>
+                </div>
+                <!-- Assistance -->
+                <div class="Elem3">
+                    <h3>Assistance</h3>
+                        <ul>
+                            <li><a href="">Centre d'aide</a></li>
+                            <li><a href="">Nous contacter</a></li>
+                        </ul>
+                </div>
             </div>
         </footer>
     </body>
