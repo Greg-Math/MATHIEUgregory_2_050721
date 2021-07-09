@@ -1,10 +1,14 @@
 @font-face {
-	font-family: Raleway;
-	src: url("Raleway-VariableFont_wght.ttf") format("ttf"), url("Raleway-Italic-VariableFont_wght.ttf") format("ttf");
+	font-family: "Raleway";
+	src: url("Raleway-VariableFont_wght.ttf") format("truetype"), url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
 }
 body{
-	font-family: Raleway;
+	font-family: "Raleway", "sans-serif";
 	padding: auto;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
 }
 .header {
 	display: flex;
@@ -16,10 +20,8 @@ ul {
 	right: 40px;
 }
 footer {
-	display: flex;
-	
 	background-color: #F2F2F2;
-	
+	display: flex;
 }
 .Populaire {
 	background-color: #F2F2F2;
@@ -33,8 +35,7 @@ footer {
 }
 .ElemHeberg {
 	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	justify-content: space-around;
 }
 .ToutHeberg {
 	display: flex;
