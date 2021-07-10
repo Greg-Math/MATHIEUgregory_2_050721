@@ -8,6 +8,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: auto;
 }
 main {
 	width: 98%;
@@ -16,84 +17,250 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	border: blue solid 2px;
 	width: 100%;
-	height: 58px;
+	height: 60px;
 }
 nav {
 	display: flex;
-	border: solid 2px black;
-	width: 80%;
+	width: 75%;
 	justify-content: space-around;
 	height: 100%;
 	align-items: center;
 }
-#Sinscrire {
-	border: red 2px solid;
-}
 #ElemNav {
-	border: green 2px solid;
 	display: flex;
 	justify-content: space-between;
 	width: 30%;
 	height: 100%;
 	align-items: center;
 }
-.BarreSearch {
-	display: flex;
-	border: 2px #F2F2F2 solid;
-	border-radius: 20px;
-	width: ;
-	height: 40px;
-}
-.TextI {
+#NavH {
+	text-decoration: none;
+	color: #0065fc;
+	border-top: #0065fc 5px solid;
+	height: 100%;
 	display: flex;
 	align-items: center;
 }
-.IconeI {
-	margin: 10px;
-	padding-left: 6px;
-	padding-right: 6px;
+#NavA {
+	text-decoration: none;
+	color: black;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+#NavA:hover {
+	color: #0065fc;
+	border-top: #0065fc 5px solid;
+}
+#Sinscrire {
+	text-decoration: none;
+	font-weight: bold;
+	color: #0065fc;
+	margin-right: 10px;
+}
+#Sinscrire:hover {
+	text-decoration: underline;
+}
+#HeadTitre {
+	margin-bottom: 0;
+	font-size: 180%;
+}
+#sstitre {
+	margin-top: 0;
+}
+#Fsearch {
+	display: flex;
+	align-items: center;
+}
+#BarreSearch {
+	display: flex;
+	border: 1px #F2F2F2 solid;
+	border-radius: 10px;
+	height: 35px;
+	overflow: hidden;
+}
+#Igeo {
+	padding: 12px;
+	display: flex;
+	align-self: center;
+	background-color: #F2F2F2
+}
+#BarreText {
+	font-weight: bold;
+	border: 0;
+	padding-left: 10px;
+}
+#SearchButton {
+	background-color: #0065fc;
+	color: white;
+	border: 0;
+	padding: 10px;
+}
+
+#Filtres {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 60%;
+	height: 50px;
+	margin-top: 20px;
+}
+#Eco {
+	border: #F2F2F2 3px solid;
+	border-radius: 30px;
+	border-left: 0;
+	height: 100%;
+	width: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 15px;
+}
+#Fam {
+	border: #F2F2F2 3px solid;
+	border-radius: 30px;
+	border-left: 0;
+	height: 100%;
+	width: 12%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 20px;
+}
+#Rom {
+	border: #F2F2F2 3px solid;
+	border-radius: 30px;
+	border-left: 0;
+	height: 100%;
+	width: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 20px;
+}
+#Ani {
+	border: #F2F2F2 3px solid;
+	border-radius: 30px;
+	border-left: 0;
+	height: 100%;
+	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 25px;
+}
+.FilText {
+	font-weight: bold;
+}
+.IFil {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 52px;
+	width: 52px;
+	border-radius: 30px;
+	border: 2px #deebff solid;
+	background-color: #DEEBFF;
+	color: #0065fc;
+	font-size: 120%;
+}
+#TextI {
+	display: flex;
+	align-items: center;
+	font-size: 80%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#IconeI {
+	margin: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
 	border: #F2F2F2 1px solid;
 	border-radius: 20px;
 	color: #0065fc;
 	font-size: 80%;
+}
+#ToutHeberg {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+#Hebergement {
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	width: 75%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+#Hebergement h1 {
+	margin-left: 15px;
+}
+#ElemHeberg {
+	display: flex;
+	justify-content: space-around;
+	border: 2px green solid;
+	width: 100%;
+	height: 85%;
+}
+#Cannebiere {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 250px;
+	height: 175px;
+	margin: 18px;
+	margin-top: 0;
+	background-image: url(Images/Cannebiere.jpg);
+	display: flex;
+	align-items: flex-end;
+}
+.TextArti {
+	text-decoration: none;
+	color: black;
+}
+#TextCannebiere {
+	width: 250px;
+	height: 70px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+.TitreHeb {
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+.Nuit {
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+	margin-top: 2px;
+	font-size: 80%;
+}
+.Etoiles {
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+	margin-top: 5px;
+	font-size: 80%;
+}
+.EtoileB {
+	color: #0065fc;
+}
+.EtoileG {
+	color: #F2F2F2;
 }
 .Populaire {
 	background-color: #F2F2F2;
 	border: 2px #F2F2F2 solid;
 	border-radius: 20px;
 }
-.Hebergement {
-	background-color: #F2F2F2;
-	border: 2px #F2F2F2 solid;
-	border-radius: 20px;
-}
-.ElemHeberg {
-	display: flex;
-	justify-content: space-around;
-}
-.ToutHeberg {
-	display: flex;
-	justify-content: space-between;
-}
-.fa-map-marker-alt {
-	display: flex;
-	align-self: center;
-	border: 2px #F2F2F2 solid;
-	border-radius: 20px 0px 20px 0px;
-	background-color: #F2F2F2
-}
-.Filtres {
-	display: flex;
-
-}
 em {
 	font-weight: bold;
 	font-style: normal;
-}
-.TextI {
-	display: flex;
 }
 .ElemActi {
 	display: flex;

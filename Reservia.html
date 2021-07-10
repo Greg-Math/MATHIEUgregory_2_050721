@@ -13,10 +13,10 @@
             <img class="ImgReservia" src="Reservia.png" alt="Reservia">
                 <div id="ElemNav">
                     <nav> <!-- Menu Navigation -->
-                        <a href="#Hébergement" class="NavH"> Hébergements</a>
-                        <a href="#Activités" class="NavA"> Activités</a>
+                        <a href="#Hébergement" id="NavH"> Hébergements</a>
+                        <a href="#Activités" id="NavA"> Activités</a>
                     </nav>
-                    <a href="S'inscrire" id="Sinscrire"> S'incrire</a>
+                    <a href="S'inscrire" id="Sinscrire"> S'inscrire</a>
                 </div>
     </header>
 
@@ -24,51 +24,50 @@
     <main>
 
     <!-- Recherhes -->
-    <section class="search"> 
-        <header class="HeadSearch">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
+    <section id="search"> 
+        <header id="HeadSearch">
+            <h1 id="HeadTitre">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p id="sstitre">En plein centre ville ou en pleine nature</p>
         </header>
-            <form method="post" action="">
-                <div class="BarreSearch">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <input type="search" name="Recherche" placeholder="Marseille, France">
-                    <input type="submit" name="BoutonRecherche" value="Rechercher">
+            <form id="Fsearch" method="post" action="">
+                <div id="BarreSearch">
+                    <i id="Igeo" class="fas fa-map-marker-alt"></i>
+                    <input id="BarreText" type="search" name="Recherche" value="Marseille, France">
+                    <input id="SearchButton" type="submit" name="BoutonRecherche" value="Rechercher">
                 </div>
             </form>
 
-        <div class="Filtres">
+        <div id="Filtres">
             <h2>Filtres</h2>
-                <div><i class="fas fa-money-bill-wave"></i> Économique</div>
-                <div><i class="fas fa-child"></i> Familial</div>
-                <div><i class="fas fa-heart"></i> Romantique</div>
-                <div><i class="fas fa-dog"></i> Animaux autorisés</div>
+                <div id="Eco"><span class="IFil"><i class="fas fa-money-bill-wave"></i></span> <span class="FilText">Économique</span></div>
+                <div id="Fam"><span class="IFil"><i class="fas fa-child"></i></span><span class="FilText">Familial</span></div>
+                <div id="Rom"><span class="IFil"><i class="fas fa-heart"></i></span><span class="FilText">Romantique</span></div>
+                <div id="Ani"><span class="IFil"><i class="fas fa-dog"></i></span><span class="FilText">Animaux autorisés</span></div>
         </div>
-        <div class="TextI">
-                <div class="IconeI"><i class="fas fa-info"></i></div>
+        <div id="TextI">
+                <div id="IconeI"><i class="fas fa-info"></i></div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
     </section>
         
     <!-- Hébergements -->
-    <section class="ToutHeberg">
-        <div class="Hebergement">
+    <section id="ToutHeberg">
+        <div id="Hebergement">
             <h1>Hébergement à Marseille</h1>
-            <div class="ElemHeberg">
+            <div id="ElemHeberg">
 
                 <!-- Auberge la Cannebière -->
-                <article class="Cannebière">
-                    <a href="">
-                        <div class="ImgHeberg"><img src="Images/Cannebiere.jpg" alt="Auberge la Cannebière"></div>
-                        <div>
-                            <h3>Auberge la Cannebière</h3>
-                            <p>Nuit à partir de <em>25€</em></p>
-                            <div>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                <article id="Cannebiere">
+                    <a class="TextArti" href="">
+                        <div id="TextCannebiere">
+                            <h3 class="TitreHeb">Auberge la Cannebière</h3>
+                            <p class="Nuit">Nuit à partir de <em>25€</em></p>
+                            <div class="Etoiles">
+                                <span class="EtoileB"><i class="fas fa-star"></i></span>
+                                <span class="EtoileB"><i class="fas fa-star"></i></span>
+                                <span class="EtoileB"><i class="fas fa-star"></i></span>
+                                <span class="EtoileB"><i class="fas fa-star"></i></span>
+                                <span class="EtoileG"><i class="fas fa-star"></i></span>
                             </div>
                         </div>
                     </a>
@@ -77,7 +76,7 @@
                 <!-- Hôtel du Port -->
                 <article class="HPort">
                     <a href="">
-                        <div class="ImgHeberg"><img src="Images/Port.jpg" alt="Hôtel du Port"></div>
+                        <div class="ImgHeberg"><img src="" alt="Hôtel du Port"></div>
                         <div>
                             <h3>Hôtel du port</h3>
                             <p>Nuit à partir de <em>52€</em></p>
@@ -95,7 +94,7 @@
                 <!-- Hôtel Les mouettes -->
                 <article class="Hmouettes">
                     <a href="">
-                        <div class="ImgHeberg"><img src="Images/Mouettes.jpg" alt="Hôtel Les mouettes"></div>
+                        <div class="ImgHeberg"><img src="" alt="Hôtel Les mouettes"></div>
                         <div>
                             <h3>Hôtel Les mouettes</h3>
                             <p>Nuit à partir de <em>76€</em></p>
@@ -113,7 +112,7 @@
                 <!-- Hôtel de la mer -->
                 <article class="Hmer">
                     <a href="">
-                        <div class="ImgHeberg"><img src="Images/Mer.jpg" alt="Hôtel de la mer"></div>
+                        <div class="ImgHeberg"><img src="" alt="Hôtel de la mer"></div>
                         <div>
                             <h3>Hôtel de la mer</h3>
                             <p>Nuit à partir de <em>46€</em></p>
@@ -131,7 +130,7 @@
                 <!-- Auberge Le Panier -->
                 <article class="LePanier">
                     <a href="">
-                        <div class="ImgHeberg"><img src="Images/Panier.jpg" alt="Auberge Le Panier"></div>
+                        <div class="ImgHeberg"><img src="" alt="Auberge Le Panier"></div>
                         <div>
                             <h3>Auberge Le Panier</h3>
                             <p>Nuit à partir de <em>23€</em></p>
@@ -149,7 +148,7 @@
                 <!-- Hôtel chez Amina -->
                 <article class="Hamina">
                     <a href="">
-                        <div class="ImgHeberg"><img src="Images/Amina.jpg" alt="Hôtel chez Amina"></div>
+                        <div class="ImgHeberg"><img src="" alt="Hôtel chez Amina"></div>
                         <div>
                             <h3>Hôtel chez Amina</h3>
                             <p>Nuit à partir de <em>96€</em></p>
@@ -229,7 +228,7 @@
     </section>
 
     <!-- Activités -->
-    <section class="Activités">
+    <section id="Activités">
         <h1>Activités à Marseille</h1>
 
         <div class= "ElemActi">
