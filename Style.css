@@ -183,14 +183,15 @@ nav {
 }
 #ToutHeberg {
 	width: 100%;
+	height: 550px;
 	display: flex;
 	justify-content: space-between;
 }
 #Hebergement {
 	background-color: #F2F2F2;
 	border-radius: 20px;
-	width: 75%;
-	height: 600px;
+	width: 900px;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -201,9 +202,9 @@ nav {
 #ElemHeberg {
 	display: flex;
 	justify-content: space-around;
-	border: 2px green solid;
 	width: 100%;
-	height: 85%;
+	height: 75%;
+	flex-wrap: wrap;
 }
 #Cannebiere {
 	border: solid 4px white;
@@ -215,17 +216,127 @@ nav {
 	background-image: url(Images/Cannebiere.jpg);
 	display: flex;
 	align-items: flex-end;
+	box-shadow: 0px 0px 10px grey ;
 }
 .TextArti {
 	text-decoration: none;
 	color: black;
 }
+.TextArti:hover {
+}
 #TextCannebiere {
 	width: 250px;
 	height: 70px;
 	background-color: white;
+	border-radius: 0px 0px 10px 10px;
 	display: flex;
 	flex-direction: column;
+}
+#HPort {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 250px;
+	height: 175px;
+	margin: 18px;
+	margin-top: 0;
+	background-image: url(Images/Port.jpg);
+	display: flex;
+	align-items: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#TextHPort {
+	width: 250px;
+	height: 70px;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+	display: flex;
+	flex-direction: column;
+}
+#Hmouettes {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 250px;
+	height: 175px;
+	margin: 18px;
+	margin-top: 0;
+	background-image: url(Images/Mouettes.jpg);
+	display: flex;
+	align-items: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#TextHmouettes {
+	width: 250px;
+	height: 70px;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+	display: flex;
+	flex-direction: column;
+}
+#Hmer {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 250px;
+	height: 175px;
+	margin: 18px;
+	margin-top: 0;
+	background-image: url(Images/Mer.jpg);
+	display: flex;
+	align-items: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#TextHmer {
+	width: 250px;
+	height: 70px;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+	display: flex;
+	flex-direction: column;
+}
+#LePanier {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 250px;
+	height: 175px;
+	margin: 18px;
+	margin-top: 0;
+	background-image: url(Images/Panier.jpg);
+	display: flex;
+	align-items: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#TextLePanier {
+	width: 250px;
+	height: 70px;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+	display: flex;
+	flex-direction: column;
+}
+#Hamina {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 250px;
+	height: 175px;
+	margin: 18px;
+	margin-top: 0;
+	background-image: url(Images/Amina.jpg);
+	display: flex;
+	align-items: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#TextHamina {
+	width: 250px;
+	height: 70px;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+	display: flex;
+	flex-direction: column;
+}
+#Affplus {
+	margin-left: 20px;
+	padding-bottom: 20px;
+	text-decoration: none;
+	color: black;
 }
 .TitreHeb {
 	margin: 0;
@@ -253,10 +364,89 @@ nav {
 .EtoileG {
 	color: #F2F2F2;
 }
-.Populaire {
+#Populaire {
 	background-color: #F2F2F2;
 	border: 2px #F2F2F2 solid;
 	border-radius: 20px;
+	height: 100%;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#TitrePop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#ElemPop {
+	border: blue 2px solid;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 20px;
+	height: 85%;
+}
+.TextPop {
+	text-decoration: none;
+	color: black;
+}
+#Hsoleil {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 300px;
+	height: 120px;
+	background-image: url(Images/Hsoleil.jpg);
+	display: flex;
+	justify-content: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#TextHsoleil {
+	width: 180px;
+	height: 120px;
+	background-color: white;
+	border-radius: 0px 10px 10px 0px;
+}
+.PopEtoiles {
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+	margin-top: 35px;
+	font-size: 80%;
+}
+#CoeurEau {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 300px;
+	height: 120px;
+	background-image: url(Images/CoeurEau.jpg);
+	display: flex;
+	justify-content: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#TextCoeurEau {
+	width: 180px;
+	height: 120px;
+	background-color: white;
+	border-radius: 0px 10px 10px 0px;
+}
+#Hbleu {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 300px;
+	height: 120px;
+	background-image: url(Images/Hbleu.jpg);
+	display: flex;
+	justify-content: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#TextHbleu {
+	width: 180px;
+	height: 120px;
+	background-color: white;
+	border-radius: 0px 10px 10px 0px;
 }
 em {
 	font-weight: bold;
