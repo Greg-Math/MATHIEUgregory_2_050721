@@ -4,11 +4,12 @@
 }
 body{
 	font-family: "Raleway", "sans-serif";
-	margin: 0;
+	margin: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: auto;
+	max-width: 1400px;
 }
 main {
 	width: 98%;
@@ -102,16 +103,24 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 60%;
+	width: 1000px;
 	height: 50px;
 	margin-top: 20px;
+}
+#Filtres a {
+	text-decoration: none;
+	color: black;
+}
+#Filtres a:hover {
+	background-color: #DEEBFF;
+
 }
 #Eco {
 	border: #F2F2F2 3px solid;
 	border-radius: 30px;
 	border-left: 0;
 	height: 100%;
-	width: 15%;
+	width: 16%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -133,11 +142,11 @@ nav {
 	border-radius: 30px;
 	border-left: 0;
 	height: 100%;
-	width: 15%;
+	width: 16%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-right: 20px;
+	padding-right: 15px;
 }
 #Ani {
 	border: #F2F2F2 3px solid;
@@ -148,7 +157,7 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-right: 25px;
+	padding-right: 20px;
 }
 .FilText {
 	font-weight: bold;
@@ -382,7 +391,6 @@ nav {
 	padding-right: 20px;
 }
 #ElemPop {
-	border: blue 2px solid;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -448,12 +456,119 @@ nav {
 	background-color: white;
 	border-radius: 0px 10px 10px 0px;
 }
+#Acti {
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+}
+#ElemActi {
+	width: 100%;
+	height: 510px;
+	display: flex;
+	justify-content: space-between;
+}
+.TextActivites {
+	text-decoration: none;
+	color: black;
+}
+.TitreActiv {
+	display: flex;
+	align-items: center;
+	border: white 2px solid;
+	padding-left: 15px;
+	width: 95%;
+	height: 40px;
+	background-color: white;
+	border-radius: 0px 0px 10px 10px;
+}
+#Vport {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 300px;
+	height: 495px;
+	background-image: url(Images/Vport.jpg);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#DoubleElem {
+	width: 300px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#Pomegues {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 300px;
+	height: 250px;
+	background-image: url(Images/Pomegues.jpg);
+	background-size: 300px 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#Frioul {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 300px;
+	height: 150px;
+	background-image: url(Images/Frioul.jpg);
+	background-size: 300px 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#Calanques {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 300px;
+	height: 495px;
+	background-image: url(Images/Calanques.jpg);
+	background-size: 400px 470px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#GardeLongchamp {
+	width: 300px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+#DameGarde {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 300px;
+	height: 200px;
+	background-image: url(Images/DameGrave.jpg);
+	background-size: 300px 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
+#Longchamp {
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 300px;
+	height: 200px;
+	background-image: url(Images/Longchamp.jpg);
+	background-size: 300px 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	box-shadow: 0px 0px 10px grey ;
+}
 em {
 	font-weight: bold;
 	font-style: normal;
-}
-.ElemActi {
-	display: flex;
 }
 footer {
 	background-color: #F2F2F2;
