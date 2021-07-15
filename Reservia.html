@@ -173,8 +173,10 @@
                 <a class="TextPop" href="">
                     <article id="Hsoleil">
                         <div id="TextHsoleil">
-                            <h3 class="TitreHeb">Hôtel Le soleil du matin</h3>
-                            <p class="Nuit">Nuit à partir de <em>128€</em></p>
+                            <div class="TextNuit">
+                                <h3 class="TitreHeb">Hôtel Le soleil du matin</h3>
+                                <p class="Nuit">Nuit à partir de <em>128€</em></p>
+                            </div>
                             <div class="PopEtoiles">
                                 <span class="EtoileB"><i class="fas fa-star"></i></span>
                                 <span class="EtoileB"><i class="fas fa-star"></i></span>
@@ -190,8 +192,10 @@
                 <a class="TextPop" href="">
                     <article id="CoeurEau">
                         <div id="TextCoeurEau">
-                            <h3 class="TitreHeb">Au coeur de l'eau<br />Chambres d'hôtes</h3>
-                            <p class="Nuit">Nuit à partir de <em>71€</em></p>
+                            <div class="TextNuit">
+                                <h3 class="TitreHeb">Au coeur de l'eau<br />Chambres d'hôtes</h3>
+                                <p class="Nuit">Nuit à partir de <em>71€</em></p>
+                            </div>
                             <div class="PopEtoiles">
                                 <span class="EtoileB"><i class="fas fa-star"></i></span>
                                 <span class="EtoileB"><i class="fas fa-star"></i></span>
@@ -207,8 +211,10 @@
                 <a class="TextPop" href="">
                     <article id="Hbleu">
                         <div id="TextHbleu">
-                            <h3 class="TitreHeb">Hôtel Tout bleu et Blanc</h3>
-                            <p class="Nuit">Nuit à partir de <em>68€</em></p>
+                            <div class="TextNuit">
+                                <h3 class="TitreHeb">Hôtel Tout bleu et Blanc</h3>
+                                <p class="Nuit">Nuit à partir de <em>68€</em></p>
+                            </div>
                             <div class="PopEtoiles">
                                 <span class="EtoileB"><i class="fas fa-star"></i></span>
                                 <span class="EtoileB"><i class="fas fa-star"></i></span>
@@ -227,70 +233,73 @@
 
     <!-- Activités -->
     <section id="Acti">
-        <h1>Activités à Marseille</h1>
+        <div id="ToutActi">
+            <h1>Activités à Marseille</h1>
 
-        <div id="ElemActi">
+            <div id="ElemActi">
+                <div class="SimpleElem">
+                    <!-- Vieux Port -->
+                    <a class="TextActivites" href="">
+                        <article id="Vport">
+                            <div class="TitreActiv">
+                                <h3>Vieux Port</h3>
+                            </div>
+                        </article>
+                    </a>
+                </div>
 
-            <!-- Vieux Port -->
-            <a class="TextActivites" href="">
-                <article id="Vport">
-                    <div class="TitreActiv">
-                        <h3>Vieux Port</h3>
-                    </div>
-                </article>
-            </a>
 
+                <div id="DoubleElem">
+                    <!-- Fort de Pomègues -->
+                    <a id="TextPom" href="">
+                        <article id="Pomegues">
+                            <div class="TitreActiv">
+                                <h3>Fort de Pomègues</h3>
+                            </div>
+                        </article>
+                    </a>
 
-            <div id="DoubleElem">
-                <!-- Fort de Pomègues -->
-                <a class="TextActivites" href="">
-                    <article id="Pomegues">
-                        <div class="TitreActiv">
-                            <h3>Fort de Pomègues</h3>
-                        </div>
-                    </article>
-                </a>
+                    <!-- Îles du Frioul -->
+                    <a id="TextFri" href="">
+                        <article id="Frioul">
+                            <div class="TitreActiv">
+                                <h3>Îles du Frioul</h3>
+                            </div>
+                        </article>
+                    </a>
+                </div>
 
-                <!-- Îles du Frioul -->
-                <a class="TextActivites" href="">
-                    <article id="Frioul">
-                        <div class="TitreActiv">
-                            <h3>Îles du Frioul</h3>
-                        </div>
-                    </article>
-                </a>
+                <div class="SimpleElem">
+                    <!-- Parc National des Calanques -->
+                    <a class="TextActivites" href="">
+                        <article id="Calanques">
+                            <div class="TitreActiv">
+                                <h3>Parc National des Calanques</h3>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+
+                <div id="GardeLongchamp">
+                    <!-- Notre-Dame-de-la-Garde -->
+                    <a id="TextGar" href="">
+                        <article id="DameGarde">
+                            <div class="TitreActiv">
+                                <h3>Notre-Dame-de-la-Garde</h3>
+                            </div>
+                        </article>
+                    </a>
+
+                    <!-- Parc Longchamp -->
+                    <a id="TextLon" href="">
+                        <article id="Longchamp">
+                            <div class="TitreActiv">
+                                <h3>Parc Longchamp</h3>
+                            </div>
+                        </article>
+                    </a>
+                </div>
             </div>
-
-            <!-- Parc National des Calanques -->
-            <a class="TextActivites" href="">
-                <article id="Calanques">
-                    <div class="TitreActiv">
-                        <h3>Parc National des Calanques</h3>
-                    </div>
-                </article>
-            </a>
-
-            <div id="GardeLongchamp">
-                <!-- Notre-Dame-de-la-Garde -->
-                <a class="TextActivites" href="">
-                    <article id="DameGarde">
-                        <div class="TitreActiv">
-                            <h3>Notre-Dame-de-la-Garde</h3>
-                        </div>
-                    </article>
-                </a>
-
-                <!-- Parc Longchamp -->
-                <a class="TextActivites" href="">
-                    <article id="Longchamp">
-                        <div class="TitreActiv">
-                            <h3>Parc Longchamp</h3>
-                        </div>
-                    </article>
-                </a>
-
-            </div>
-
         </div>
     </section>
     </main>

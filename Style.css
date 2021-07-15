@@ -8,8 +8,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: auto;
-	max-width: 1400px;
+	max-width: 100%;
 }
 main {
 	width: 98%;
@@ -30,25 +29,31 @@ nav {
 }
 #ElemNav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	width: 30%;
 	height: 100%;
 	align-items: center;
 }
 #NavH {
 	text-decoration: none;
-	color: #0065fc;
-	border-top: #0065fc 5px solid;
 	height: 100%;
+	width: 50%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 #NavA {
 	text-decoration: none;
 	color: black;
 	height: 100%;
+	width: 50%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
+}
+#NavH:hover {
+	color: #0065fc;
+	border-top: #0065fc 5px solid;
 }
 #NavA:hover {
 	color: #0065fc;
@@ -58,7 +63,11 @@ nav {
 	text-decoration: none;
 	font-weight: bold;
 	color: #0065fc;
-	margin-right: 10px;
+	height: 100%;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 #Sinscrire:hover {
 	text-decoration: underline;
@@ -103,9 +112,10 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 1000px;
-	height: 50px;
+	width: 800px;
+	height: 36px;
 	margin-top: 20px;
+	font-size: 80%;
 }
 #Filtres a {
 	text-decoration: none;
@@ -120,44 +130,44 @@ nav {
 	border-radius: 30px;
 	border-left: 0;
 	height: 100%;
-	width: 16%;
+	width: 125px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-right: 15px;
+	padding-right: 10px;
 }
 #Fam {
 	border: #F2F2F2 3px solid;
 	border-radius: 30px;
 	border-left: 0;
 	height: 100%;
-	width: 12%;
+	width: 90px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-right: 20px;
+	padding-right: 10px;
 }
 #Rom {
 	border: #F2F2F2 3px solid;
 	border-radius: 30px;
 	border-left: 0;
 	height: 100%;
-	width: 16%;
+	width: 120px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-right: 15px;
+	padding-right: 10px;
 }
 #Ani {
 	border: #F2F2F2 3px solid;
 	border-radius: 30px;
 	border-left: 0;
 	height: 100%;
-	width: 20%;
+	width: 155px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-right: 20px;
+	padding-right: 10px;
 }
 .FilText {
 	font-weight: bold;
@@ -166,13 +176,12 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 52px;
-	width: 52px;
+	height: 100%;
+	width: 36px;
 	border-radius: 30px;
 	border: 2px #deebff solid;
 	background-color: #DEEBFF;
 	color: #0065fc;
-	font-size: 120%;
 }
 #TextI {
 	display: flex;
@@ -192,21 +201,22 @@ nav {
 }
 #ToutHeberg {
 	width: 100%;
-	height: 550px;
+	height: 42em;
 	display: flex;
 	justify-content: space-between;
 }
 #Hebergement {
 	background-color: #F2F2F2;
 	border-radius: 20px;
-	width: 900px;
+	width: 70%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
+	justify-content: space-between;
 }
 #Hebergement h1 {
-	margin-left: 15px;
+	margin-left: 2%;
+	margin-top: 5%;
 }
 #ElemHeberg {
 	display: flex;
@@ -218,11 +228,12 @@ nav {
 #Cannebiere {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 250px;
-	height: 175px;
-	margin: 18px;
+	width: 90%;
+	height: 90%;
+	margin: 5%;
 	margin-top: 0;
 	background-image: url(Images/Cannebiere.jpg);
+	background-size: 100% 90%;
 	display: flex;
 	align-items: flex-end;
 	box-shadow: 0px 0px 10px grey ;
@@ -230,10 +241,19 @@ nav {
 .TextArti {
 	text-decoration: none;
 	color: black;
+	box-sizing: content-box;
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+}
+#Cannebiere:hover {
+	box-shadow: 0px 0px 30px #0065fc;
 }
 #TextCannebiere {
-	width: 250px;
-	height: 70px;
+	width: 100%;
+	height: 30%;
 	background-color: white;
 	border-radius: 0px 0px 10px 10px;
 	display: flex;
@@ -242,18 +262,22 @@ nav {
 #HPort {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 250px;
-	height: 175px;
-	margin: 18px;
+	width: 90%;
+	height: 90%;
+	margin: 5%;
 	margin-top: 0;
 	background-image: url(Images/Port.jpg);
+	background-size: 100% 90%;
 	display: flex;
 	align-items: flex-end;
 	box-shadow: 0px 0px 10px grey ;
 }
+#HPort:hover {
+	box-shadow: 0px 0px 30px #0065fc;
+}
 #TextHPort {
-	width: 250px;
-	height: 70px;
+	width: 100%;
+	height: 30%;
 	background-color: white;
 	border-radius: 0px 0px 10px 10px;
 	display: flex;
@@ -262,18 +286,22 @@ nav {
 #Hmouettes {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 250px;
-	height: 175px;
-	margin: 18px;
+	width: 90%;
+	height: 90%;
+	margin: 5%;
 	margin-top: 0;
 	background-image: url(Images/Mouettes.jpg);
+	background-size: 100% 90%;
 	display: flex;
 	align-items: flex-end;
 	box-shadow: 0px 0px 10px grey ;
 }
+#Hmouettes:hover {
+	box-shadow: 0px 0px 30px #0065fc;
+}
 #TextHmouettes {
-	width: 250px;
-	height: 70px;
+	width: 100%;
+	height: 30%;
 	background-color: white;
 	border-radius: 0px 0px 10px 10px;
 	display: flex;
@@ -282,18 +310,22 @@ nav {
 #Hmer {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 250px;
-	height: 175px;
-	margin: 18px;
+	width: 90%;
+	height: 90%;
+	margin: 5%;
 	margin-top: 0;
 	background-image: url(Images/Mer.jpg);
+	background-size: 100% 90%;
 	display: flex;
 	align-items: flex-end;
 	box-shadow: 0px 0px 10px grey ;
 }
+#Hmer:hover {
+	box-shadow: 0px 0px 30px #0065fc;
+}
 #TextHmer {
-	width: 250px;
-	height: 70px;
+	width: 100%;
+	height: 30%;
 	background-color: white;
 	border-radius: 0px 0px 10px 10px;
 	display: flex;
@@ -302,18 +334,22 @@ nav {
 #LePanier {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 250px;
-	height: 175px;
-	margin: 18px;
+	width: 90%;
+	height: 90%;
+	margin: 5%;
 	margin-top: 0;
 	background-image: url(Images/Panier.jpg);
+	background-size: 100% 90%;
 	display: flex;
 	align-items: flex-end;
 	box-shadow: 0px 0px 10px grey ;
 }
+#LePanier:hover {
+	box-shadow: 0px 0px 30px #0065fc;
+}
 #TextLePanier {
-	width: 250px;
-	height: 70px;
+	width: 100%;
+	height: 30%;
 	background-color: white;
 	border-radius: 0px 0px 10px 10px;
 	display: flex;
@@ -322,48 +358,53 @@ nav {
 #Hamina {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 250px;
-	height: 175px;
-	margin: 18px;
+	width: 90%;
+	height: 90%;
+	margin: 5%;
 	margin-top: 0;
 	background-image: url(Images/Amina.jpg);
+	background-size: 100% 90%;
 	display: flex;
 	align-items: flex-end;
 	box-shadow: 0px 0px 10px grey ;
 }
+#Hamina:hover {
+	box-shadow: 0px 0px 30px #0065fc;
+}
 #TextHamina {
-	width: 250px;
-	height: 70px;
+	width: 100%;
+	height: 30%;
 	background-color: white;
 	border-radius: 0px 0px 10px 10px;
 	display: flex;
 	flex-direction: column;
 }
 #Affplus {
-	margin-left: 20px;
-	padding-bottom: 20px;
+	margin-left: 4%;
+	padding-bottom: 2%;
 	text-decoration: none;
 	color: black;
 }
 .TitreHeb {
 	margin: 0;
 	padding: 0;
-	margin-left: 10px;
-	margin-top: 2px;
+	margin-left: 5%;
+	margin-top: 1%;
+	font-size: 1em;
 }
 .Nuit {
 	margin: 0;
 	padding: 0;
-	margin-left: 10px;
-	margin-top: 2px;
-	font-size: 80%;
+	margin-left: 5%;
+	margin-top: 1%;
+	font-size: 0.8em;
 }
 .Etoiles {
 	margin: 0;
 	padding: 0;
-	margin-left: 10px;
-	margin-top: 5px;
-	font-size: 80%;
+	margin-left: 5%;
+	margin-top: 1%;
+	font-size: 0.8em;
 }
 .EtoileB {
 	color: #0065fc;
@@ -376,7 +417,7 @@ nav {
 	border: 2px #F2F2F2 solid;
 	border-radius: 20px;
 	height: 100%;
-	width: 350px;
+	width: 27%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -385,95 +426,139 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-right: 5%;
+	margin-left: 5%;
+	margin-top: 5%;
 }
 #ElemPop {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	padding-left: 20px;
+	align-items: center;
 	height: 85%;
 }
 .TextPop {
 	text-decoration: none;
 	color: black;
+	box-sizing: content-box;
+	width: 90%;
+	height: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
 }
 #Hsoleil {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 300px;
-	height: 120px;
+	width: 100%;
+	height: 100%;
 	background-image: url(Images/Hsoleil.jpg);
+	background-size: 40% 100%;
 	display: flex;
 	justify-content: flex-end;
 	box-shadow: 0px 0px 10px grey ;
 }
+#Hsoleil:hover {
+	box-shadow: 0px 0px 30px #0065fc;
+}
 #TextHsoleil {
-	width: 180px;
-	height: 120px;
+	width: 60%;
+	height: 100%;
 	background-color: white;
 	border-radius: 0px 10px 10px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 1.1em;
 }
 .PopEtoiles {
-	margin: 0;
-	padding: 0;
-	margin-left: 10px;
-	margin-top: 35px;
+	margin-left: 5%;
 	font-size: 80%;
 }
 #CoeurEau {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 300px;
-	height: 120px;
+	width: 100%;
+	height: 100%;
 	background-image: url(Images/CoeurEau.jpg);
+	background-size: 40% 100%;
 	display: flex;
 	justify-content: flex-end;
 	box-shadow: 0px 0px 10px grey ;
 }
+#CoeurEau:hover {
+	box-shadow: 0px 0px 30px #0065fc;
+}
 #TextCoeurEau {
-	width: 180px;
-	height: 120px;
+	width: 60%;
+	height: 100%;
 	background-color: white;
 	border-radius: 0px 10px 10px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 1.1em;
 }
 #Hbleu {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 300px;
-	height: 120px;
+	width: 100%;
+	height: 100%;
 	background-image: url(Images/Hbleu.jpg);
+	background-size: 40% 100%;
 	display: flex;
 	justify-content: flex-end;
 	box-shadow: 0px 0px 10px grey ;
 }
+#Hbleu:hover {
+	box-shadow: 0px 0px 30px #0065fc;
+}
 #TextHbleu {
-	width: 180px;
-	height: 120px;
+	width: 60%;
+	height: 100%;
 	background-color: white;
 	border-radius: 0px 10px 10px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-size: 1.1em;
 }
 #Acti {
-	margin-top: 20px;
+	margin-top: 2%;
 	width: 100%;
-	height: auto;
+	height: 45em;
+	margin-bottom: 2%;
+}
+#ToutActi {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 #ElemActi {
 	width: 100%;
-	height: 510px;
+	height: 85%;
 	display: flex;
 	justify-content: space-between;
 }
 .TextActivites {
 	text-decoration: none;
 	color: black;
+	height: 100%;
+	width: 100%;
+}
+.SimpleElem {
+	width: 23%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 .TitreActiv {
 	display: flex;
 	align-items: center;
 	border: white 2px solid;
-	padding-left: 15px;
+	padding-left: 5%;
 	width: 95%;
 	height: 40px;
 	background-color: white;
@@ -482,87 +567,130 @@ nav {
 #Vport {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 300px;
-	height: 495px;
+	width: 99%;
+	height: 99%;
 	background-image: url(Images/Vport.jpg);
+	background-size: 100% 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	box-shadow: 0px 0px 10px grey ;
 }
+#Vport:hover {
+	box-shadow: 0px 0px 30px #0065fc;
+}
 #DoubleElem {
-	width: 300px;
-	height: 500px;
+	width: 23%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+#TextPom {
+	text-decoration: none;
+	color: black;
+	height: 55%;
+	width: 100%;
 }
 #Pomegues {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 300px;
-	height: 250px;
+	width: 98%;
+	height: 98%;
 	background-image: url(Images/Pomegues.jpg);
-	background-size: 300px 300px;
+	background-size: 100% 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	box-shadow: 0px 0px 10px grey ;
+}
+#Pomegues:hover {
+	box-shadow: 0px 0px 30px #0065fc;
+}
+#TextFri {
+	text-decoration: none;
+	color: black;
+	height: 35%;
+	width: 100%;
 }
 #Frioul {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 300px;
-	height: 150px;
+	width: 98%;
+	height: 98%;
 	background-image: url(Images/Frioul.jpg);
-	background-size: 300px 150px;
+	background-size: 100% 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	box-shadow: 0px 0px 10px grey ;
+}
+#Frioul:hover {
+	box-shadow: 0px 0px 30px #0065fc;
 }
 #Calanques {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 300px;
-	height: 495px;
+	width: 99%;
+	height: 99%;
 	background-image: url(Images/Calanques.jpg);
-	background-size: 400px 470px;
+	background-size: 100% 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	box-shadow: 0px 0px 10px grey ;
 }
+#Calanques:hover {
+	box-shadow: 0px 0px 30px #0065fc;
+}
 #GardeLongchamp {
-	width: 300px;
-	height: 500px;
+	width: 23%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
+#TextGar {
+	text-decoration: none;
+	color: black;
+	height: 45%;
+	width: 100%;
+}
 #DameGarde {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 300px;
-	height: 200px;
+	width: 98%;
+	height: 98%;
 	background-image: url(Images/DameGrave.jpg);
-	background-size: 300px 300px;
+	background-size: 100% 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	box-shadow: 0px 0px 10px grey ;
 }
+#DameGarde:hover {
+	box-shadow: 0px 0px 30px #0065fc;
+}
+#TextLon {
+	text-decoration: none;
+	color: black;
+	height: 45%;
+	width: 100%;
+}
 #Longchamp {
 	border: solid 4px white;
 	border-radius: 20px;
-	width: 300px;
-	height: 200px;
+	width: 98%;
+	height: 98%;
 	background-image: url(Images/Longchamp.jpg);
-	background-size: 300px 200px;
+	background-size: 100% 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 	box-shadow: 0px 0px 10px grey ;
+}
+#Longchamp:hover {
+	box-shadow: 0px 0px 30px #0065fc;
 }
 em {
 	font-weight: bold;
