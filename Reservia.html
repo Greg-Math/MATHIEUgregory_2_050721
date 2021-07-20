@@ -4,6 +4,7 @@
         <script src="https://kit.fontawesome.com/1f3d6ef81c.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="Style.css" />
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Reservia</title>
     </head>
     <body>
@@ -29,7 +30,7 @@
             <h1 id="HeadTitre">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p id="sstitre">En plein centre ville ou en pleine nature</p>
         </header>
-            <form id="Fsearch" method="post" action="">
+            <form id="Fsearch" method="post" action="#">
                 <div id="BarreSearch">
                     <i id="Igeo" class="fas fa-map-marker-alt"></i>
                     <input id="BarreText" type="search" name="Recherche" value="Marseille, France">
@@ -39,10 +40,12 @@
 
         <div id="Filtres">
             <h2>Filtres</h2>
+            <div id="ContainFil">
                 <a href="" id="Eco"><span class="IFil"><i class="fas fa-money-bill-wave"></i></span> <span class="FilText">Économique</span></a>
                 <a href="" id="Fam"><span class="IFil"><i class="fas fa-child"></i></span><span class="FilText">Familial</span></a>
                 <a href="" id="Rom"><span class="IFil"><i class="fas fa-heart"></i></span><span class="FilText">Romantique</span></a>
                 <a href="" id="Ani"><span class="IFil"><i class="fas fa-dog"></i></span><span class="FilText">Animaux autorisés</span></a>
+            </div>
         </div>
         <div id="TextI">
                 <div id="IconeI"><i class="fas fa-info"></i></div>
@@ -164,7 +167,7 @@
         <!-- Les plus Populaires -->
         <aside id="Populaire">
             <div id="TitrePop">
-                <h1>Les plus populaires</h1>
+                <h2>Les plus populaires</h2>
                 <i class="fas fa-chart-line"></i>
             </div>
 

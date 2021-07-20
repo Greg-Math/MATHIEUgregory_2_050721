@@ -2,7 +2,8 @@
 	font-family: "Raleway";
 	src: url("Raleway-VariableFont_wght.ttf") format("truetype"), url("Raleway-Italic-VariableFont_wght.ttf") format("truetype");
 }
-body{
+
+body {
 	font-family: "Raleway", "sans-serif";
 	margin: auto;
 	display: flex;
@@ -74,7 +75,7 @@ nav {
 }
 #HeadTitre {
 	margin-bottom: 0;
-	font-size: 180%;
+	font-size: 1.8em;
 }
 #sstitre {
 	margin-top: 0;
@@ -112,14 +113,22 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 800px;
-	height: 36px;
+	flex-wrap: wrap;
+	width: 50%;
+	height: auto;
 	margin-top: 20px;
 	font-size: 80%;
+}
+#ContainFil {
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	justify-content: space-around;
 }
 #Filtres a {
 	text-decoration: none;
 	color: black;
+	height: 36px;
 }
 #Filtres a:hover {
 	background-color: #DEEBFF;
@@ -201,7 +210,7 @@ nav {
 }
 #ToutHeberg {
 	width: 100%;
-	height: 42em;
+	height: 750px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -716,4 +725,89 @@ ul {
 	list-style-type: none;
 	position: relative;
 	right: 40px;
+}
+@media screen and (max-width: 1024px) {
+
+	.ImgReservia {
+		width: 70px;
+		height: 40px;
+	}
+	#Filtres {
+		display: flex;
+		flex-direction: column;
+	}
+	#ContainFil {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		width: 100%;
+	}
+	#Filtres h2 {
+		width: 100%;
+	}
+	#ToutHeberg {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		border: red 2px solid;
+		height: 1550px;
+		margin: 0;
+	}
+	#Populaire {
+		width: 100%;
+		height: 28%;
+		border: gray 2px solid;
+	}
+	#ElemPop {
+		border: springgreen 2px solid;
+		height: 90%;
+	}
+	#ElemPop article {
+		border:blue 2px solid;
+		height: 100px;
+	}
+	#TitrePop h2 {
+		font-size: 1em;
+	}
+	#Hebergement {
+		width: 100%;
+		height: 71%;
+		border: tomato 2px solid;
+		margin: 0;
+	}
+	#Hebergement h1 {
+		font-size: 1em;
+	}
+	#ElemHeberg {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border: teal 2px solid;
+		height: 95%;
+		width: 100%;
+	}
+	.TextArti {
+		width: 100%;
+		height: 150px;
+		border: teal solid 2px;
+	}
+	#TextHPort, #TextCannebiere, #TextHmouettes, #TextHmer, #TextLePanier, #TextHamina {
+		height: 35%;
+	}
+	#Cannebiere, #HPort, #Hmouettes, #Hmer, #LePanier, #Hamina {
+		height: 150px;
+	}
+	.TitreHeb, #Affplus {
+		font-size: 0.9em;
+	}
+	.Nuit {
+		font-size: 0.7em;
+	}
+	.Etoiles, .PopEtoiles {
+		font-size: 0.7em;
+	}
+	.FootElem {
+		display: flex;
+		flex-direction: column;
+		padding-left: 20px;
+	}
 }
