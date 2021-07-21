@@ -536,7 +536,7 @@ nav {
 #Acti {
 	margin-top: 2%;
 	width: 100%;
-	height: 45em;
+	height: 600px;
 	margin-bottom: 2%;
 }
 #ToutActi {
@@ -748,21 +748,17 @@ ul {
 		display: flex;
 		flex-direction: column-reverse;
 		justify-content: space-between;
-		border: red 2px solid;
 		height: 1550px;
 		margin: 0;
 	}
 	#Populaire {
 		width: 100%;
 		height: 28%;
-		border: gray 2px solid;
 	}
 	#ElemPop {
-		border: springgreen 2px solid;
 		height: 90%;
 	}
 	#ElemPop article {
-		border:blue 2px solid;
 		height: 100px;
 	}
 	#TitrePop h2 {
@@ -771,7 +767,6 @@ ul {
 	#Hebergement {
 		width: 100%;
 		height: 71%;
-		border: tomato 2px solid;
 		margin: 0;
 	}
 	#Hebergement h1 {
@@ -781,29 +776,64 @@ ul {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		border: teal 2px solid;
 		height: 95%;
 		width: 100%;
 	}
 	.TextArti {
 		width: 100%;
 		height: 150px;
-		border: teal solid 2px;
 	}
 	#TextHPort, #TextCannebiere, #TextHmouettes, #TextHmer, #TextLePanier, #TextHamina {
 		height: 35%;
 	}
-	#Cannebiere, #HPort, #Hmouettes, #Hmer, #LePanier, #Hamina {
+	#Cannebiere, #HPort, #Hmouettes, #Hmer, #LePanier, #Hamina, #Vport, #Pomegues, #Frioul, #Calanques, #DameGarde, #Longchamp {
 		height: 150px;
 	}
 	.TitreHeb, #Affplus {
 		font-size: 0.9em;
 	}
-	.Nuit {
+	.Nuit, .TitreActiv {
 		font-size: 0.7em;
 	}
 	.Etoiles, .PopEtoiles {
 		font-size: 0.7em;
+	}
+	#Acti {
+		height: 1150px;
+		width: 100%;
+	}
+	#ToutActi {
+		width: 100%;
+	}
+	#ToutActi h1 {
+		font-size: 1em;
+	}
+	.TitreActiv {
+		height: 25%;
+	}
+	#ElemActi {
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		width: 98%;
+		height: 95%;
+	}
+	.SimpleElem, #DoubleElem, #GardeLongchamp {
+		width: 93%;
+	}
+	.SimpleElem {
+		height: 160px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	#DoubleElem, #GardeLongchamp {
+		justify-content: unset;
+		height: auto;
+	}
+	#TextPom, #TextFri, #TextGar, #TextLon {
+		height: 160px;
+		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 	.FootElem {
 		display: flex;
