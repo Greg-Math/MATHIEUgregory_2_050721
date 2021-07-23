@@ -42,6 +42,7 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	color: black;
 }
 #NavA {
 	text-decoration: none;
@@ -726,7 +727,198 @@ ul {
 	position: relative;
 	right: 40px;
 }
-@media screen and (max-width: 1024px) {
+/* Tablette XL */
+@media screen and (min-width: 816px) and (max-width: 1280px) {
+
+	#ElemNav {
+		width: 40%;
+	}
+	#Filtres {
+		width: 80%;
+	}
+	#ToutHeberg {
+		height: 600px ;
+	}
+	#Cannebiere, #HPort, #Hmouettes, #Hmer, #LePanier, #Hamina {
+		height: 190px;
+	}
+	#ElemPop article {
+		height: 140px;
+	}
+	#Acti {
+		height: 350px;
+	}
+
+}
+/* Smartphone XL Paysages + Tablette Portrait */
+@media screen and (min-width: 736px) and (max-width: 815px) {
+
+	body {
+		font-size: 90%;
+	}
+	#ElemNav {
+		width: 50%;
+	}
+	#Filtres {
+		width: 100%;
+	}
+	#ToutHeberg {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		height: 750px;
+	}
+	#Populaire {
+		width: 100%;
+		height: 32%;
+	}
+	#TitrePop h2 {
+		font-size: 1.3em;
+	}
+	#ElemPop {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	#ElemPop article {
+		height: 110px;
+		width: 210px;
+	}
+	#Hebergement {
+		width: 100%;
+		height: 66%;
+		margin: 0;
+	}
+	#Hebergement h1 {
+		font-size: 1.3em;
+	}
+	#Cannebiere, #HPort, #Hmouettes, #Hmer, #LePanier, #Hamina {
+		height: 160px;
+		width: 200px;
+	}
+	.TitreHeb {
+		font-size: 0.8em;
+	}
+	.Nuit, .TitreActiv,.Etoiles, .PopEtoiles {
+		font-size: 0.7em;
+	}
+	#Acti {
+		height: 350px;
+		width: 100%;
+	}
+	#ToutActi h1 {
+		font-size: 1.3em;
+	}
+
+}
+/* Petit Smartphone Paysage */
+@media screen and (min-width: 641px) and (max-width: 735px) {
+	
+	body {
+		font-size: 80%;
+	}
+	#ElemNav {
+		width: 50%;
+	}
+	#Filtres {
+		width: 100%;
+	}
+	#ToutHeberg {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		height: 2000px;
+		margin: 0;
+	}
+	#Populaire {
+		width: 100%;
+		height: 30%;
+	}
+	#ElemPop {
+		height: 90%;
+	}
+	#ElemPop article {
+		height: 140px;
+		width: 420px;
+	}
+	#TitrePop h2 {
+		font-size: 1.2em;
+	}
+	#Hebergement {
+		width: 100%;
+		height: 69%;
+		margin: 0;
+	}
+	#Hebergement h1 {
+		font-size: 1.2em;
+	}
+	#ElemHeberg {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 95%;
+		width: 100%;
+	}
+	.TextArti {
+		width: 100%;
+		height: 155px;
+	}
+	#TextHPort, #TextCannebiere, #TextHmouettes, #TextHmer, #TextLePanier, #TextHamina {
+		height: 35%;
+	}
+	#Cannebiere, #HPort, #Hmouettes, #Hmer, #LePanier, #Hamina, #Vport, #Pomegues, #Frioul, #Calanques, #DameGarde, #Longchamp {
+		height: 170px;
+		width: 420px;
+	}
+	.TitreHeb, #Affplus {
+		font-size: 1em;
+	}
+	.Nuit, .TitreActiv {
+		font-size: 0.8em;
+	}
+	.Etoiles, .PopEtoiles {
+		font-size: 0.8em;
+	}
+	#Acti {
+		height: 1350px;
+		width: 100%;
+	}
+	#ToutActi {
+		width: 100%;
+	}
+	#ToutActi h1 {
+		font-size: 1.2em;
+	}
+	.TitreActiv {
+		height: 25%;
+	}
+	#ElemActi {
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		width: 98%;
+		height: 95%;
+	}
+	.SimpleElem, #DoubleElem, #GardeLongchamp {
+		width: 420px;
+	}
+	.SimpleElem {
+		height: 175px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#DoubleElem, #GardeLongchamp {
+		justify-content: unset;
+		height: auto;
+	}
+	#TextPom, #TextFri, #TextGar, #TextLon {
+		height: 175px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+}
+/* Smartphone Portrait */
+@media screen and (max-width: 640px) {
 
 	.header {
 		width: 100%;
@@ -742,8 +934,15 @@ ul {
 		width: 100%;
 		height: 50px;
 	}
-	#NavH {
+	#NavH:hover {
 		border-bottom: #0065fc 4px solid;
+		border-top: none;
+		color: #0065fc;
+		font-weight: bold;
+	}
+	#NavA:hover {
+		border-bottom: #0065fc 4px solid;
+		border-top: none;
 		color: #0065fc;
 		font-weight: bold;
 	}
@@ -792,6 +991,7 @@ ul {
 	}
 	#ElemPop article {
 		height: 100px;
+		width: 290px;
 	}
 	#TitrePop h2 {
 		font-size: 1em;
@@ -820,6 +1020,7 @@ ul {
 	}
 	#Cannebiere, #HPort, #Hmouettes, #Hmer, #LePanier, #Hamina, #Vport, #Pomegues, #Frioul, #Calanques, #DameGarde, #Longchamp {
 		height: 155px;
+		width: 290px;
 	}
 	.TitreHeb, #Affplus {
 		font-size: 0.9em;
@@ -851,7 +1052,7 @@ ul {
 		height: 95%;
 	}
 	.SimpleElem, #DoubleElem, #GardeLongchamp {
-		width: 93%;
+		width: 290px;
 	}
 	.SimpleElem {
 		height: 160px;
