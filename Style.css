@@ -728,9 +728,41 @@ ul {
 }
 @media screen and (max-width: 1024px) {
 
+	.header {
+		width: 100%;
+		height: 130px;
+		align-items: flex-start;
+	}
+	#ElemNav {
+		width: 100%;
+		align-self: flex-end;
+		height: 65px;
+	}
+	nav {
+		width: 100%;
+		height: 50px;
+	}
+	#NavH {
+		border-bottom: #0065fc 4px solid;
+		color: #0065fc;
+		font-weight: bold;
+	}
 	.ImgReservia {
-		width: 70px;
-		height: 40px;
+		width: 100px;
+		height: 60px;
+		position: absolute;
+		left: 2px;
+		top: 2px;
+	}
+	#Sinscrire {
+		position: absolute;
+		right: 2px;
+		top: 2px;
+		height: 60px;
+		width: 100px;
+	}
+	#HeadTitre {
+		font-size: 1.3em;
 	}
 	#Filtres {
 		display: flex;
@@ -748,7 +780,7 @@ ul {
 		display: flex;
 		flex-direction: column-reverse;
 		justify-content: space-between;
-		height: 1550px;
+		height: 1580px;
 		margin: 0;
 	}
 	#Populaire {
@@ -781,13 +813,13 @@ ul {
 	}
 	.TextArti {
 		width: 100%;
-		height: 150px;
+		height: 155px;
 	}
 	#TextHPort, #TextCannebiere, #TextHmouettes, #TextHmer, #TextLePanier, #TextHamina {
 		height: 35%;
 	}
 	#Cannebiere, #HPort, #Hmouettes, #Hmer, #LePanier, #Hamina, #Vport, #Pomegues, #Frioul, #Calanques, #DameGarde, #Longchamp {
-		height: 150px;
+		height: 155px;
 	}
 	.TitreHeb, #Affplus {
 		font-size: 0.9em;
