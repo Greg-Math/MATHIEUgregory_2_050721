@@ -972,6 +972,7 @@ ul {
 	#Filtres {
 		display: flex;
 		flex-direction: column;
+		width: 80%;
 	}
 	#ContainFil {
 		flex-wrap: wrap;
