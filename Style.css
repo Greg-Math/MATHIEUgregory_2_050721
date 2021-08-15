@@ -44,7 +44,7 @@ nav {
 	align-items: center;
 	justify-content: center;
 	color: black;
-	border-top: black 5px solid;
+	border-top: white 5px solid;
 }
 #NavA {
 	text-decoration: none;
@@ -54,7 +54,7 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-top: black 5px solid;
+	border-top: white 5px solid;
 }
 #NavH:hover {
 	color: #0065fc;
