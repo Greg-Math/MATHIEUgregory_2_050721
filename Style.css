@@ -116,7 +116,9 @@ nav {
 	border: 0;
 	padding: 10px;
 }
-
+#loupe {
+	display: none;
+}
 #Filtres {
 	display: flex;
 	align-items: center;
@@ -986,6 +988,21 @@ ul {
 	}
 	#Filtres h2 {
 		width: 100%;
+	}
+	#SearchButton {
+		display: none;
+	}
+	#loupe {
+		width: 40px;
+		border-radius: 10px 10px 10px 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #0065fc;
+		font-size: 0.8em;
+	}
+	#loupe a {
+		color: white;
 	}
 	#ToutHeberg {
 		display: flex;
